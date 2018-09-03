@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="10dp">
+
+        <ToggleButton
+            android:id="@+id/btn_toggle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/bg_light"
+            android:textOn="开灯"
+            android:textOff="关灯"
+            android:drawablePadding="10dp"
+            android:background="@null"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/btn_Album"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/iv_album"
+            android:gravity="center_horizontal"
+            android:text="相册"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
